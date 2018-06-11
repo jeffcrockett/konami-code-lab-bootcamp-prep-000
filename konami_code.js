@@ -17,5 +17,5 @@ function init() {
     if(e.key === codes[index]){
       index++;
     }
-  }
+  });
 }
