@@ -17,5 +17,11 @@ function init() {
     if(e.key === codes[index]){
       index++;
     }
+    else{
+      index = 0;
+    }
+    if(index===codes.length){
+      alert('You entered the Konami code!');
+    }
   });
 }
